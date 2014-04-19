@@ -1,0 +1,1 @@
+<span class="sort-handle"><span class="screen-reader-text">Drag to sort</span></span>HTML Embed: <textarea class="value" rows="5" autocomplete="off" cols="30" ><%= value %></textarea> <span class="delete"><span class="screen-reader-text">delete</span></span>

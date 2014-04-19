@@ -1,0 +1,1 @@
+<span class="sort-handle"><span class="screen-reader-text">Drag to sort</span></span><ul class="image-preview-container gallery-container"></ul><button class="select-gallery">add images</button> <span class="delete"><span class="screen-reader-text">delete</span></span>
