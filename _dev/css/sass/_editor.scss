@@ -1,0 +1,48 @@
+#snowfall-editor{
+  ul{
+    ul{
+      margin-left: 2em;
+    }
+    .add-item:first-of-type{
+      margin-left: 2em;
+    }
+  }
+  li{
+    border: 1px dotted #ccc;
+  }
+  .gallery-container{
+    margin: 0;
+    li{
+      display: inline-block;
+      position: relative;
+      border: none;
+      .sort-handle{
+        position: absolute;
+        right: 37px;
+        top: 37px;
+      }
+      .delete{
+        position: absolute;
+        right: 0px;
+      }
+      &:hover .image-preview{
+        opacity: 0.3;
+      }
+    }
+  }
+  .select-gallery{
+    width: 100px;
+    height: 100px;
+  }
+  .delete{
+    cursor: pointer;
+    line-height: 2em;
+  }
+  .sort-handle{
+    cursor: move;
+  }
+  .image-preview{
+    vertical-align: middle;
+  }
+
+}

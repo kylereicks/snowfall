@@ -1,0 +1,133 @@
+#snowfall-editor .sort-handle:before{
+  font-family: 'dashicons';
+  font-size: 2em;
+  line-height: 1em;
+  float: right;
+  content: '\f333';
+  cursor: move;
+}
+#snowfall-editor .delete:before{
+  font-family: 'dashicons';
+  font-size: 1.5em;
+  vertical-align: middle;
+  content: '\f153';
+  cursor: pointer;
+}
+.plus-icon:before{
+  font-family: 'dashicons';
+  font-size: 1.5em;
+  vertical-align: middle;
+  content: '\f132';
+}
+.add-item.item-array:before{
+  font-family: 'dashicons';
+  font-size: 1.5em;
+  vertical-align: middle;
+  content: '\f204';
+  cursor: pointer;
+}
+.add-item.item-object:before{
+  font-family: 'dashicons';
+  font-size: 1.5em;
+  vertical-align: middle;
+  content: '\f203';
+  cursor: pointer;
+}
+.add-item.item-image:before{
+  font-family: 'dashicons';
+  font-size: 1.5em;
+  vertical-align: middle;
+  content: '\f128';
+  cursor: pointer;
+}
+.add-item.item-string:before{
+  font-family: 'dashicons';
+  font-size: 1.5em;
+  vertical-align: middle;
+  content: '\f122';
+  cursor: pointer;
+}
+.add-item.item-color:before{
+  font-family: 'dashicons';
+  font-size: 1.5em;
+  vertical-align: middle;
+  content: '\f309';
+  cursor: pointer;
+}
+.add-item.item-map:before{
+  font-family: 'dashicons';
+  font-size: 1.5em;
+  vertical-align: middle;
+  content: '\f231';
+  cursor: pointer;
+}
+.add-item.item-tinymce:before{
+  font-family: 'dashicons';
+  font-size: 1.5em;
+  vertical-align: middle;
+  content: '\f119';
+  cursor: pointer;
+}
+.add-item.item-section:before{
+  font-family: 'dashicons';
+  font-size: 1.5em;
+  vertical-align: middle;
+  content: '\f119';
+  cursor: pointer;
+}
+.add-item.item-aside:before{
+  font-family: 'dashicons';
+  font-size: 1.5em;
+  vertical-align: middle;
+  content: '\f123';
+  cursor: pointer;
+}
+.add-item.item-video:before{
+  font-family: 'dashicons';
+  font-size: 1.5em;
+  vertical-align: middle;
+  content: '\f126';
+  cursor: pointer;
+}
+.add-item.item-audio:before{
+  font-family: 'dashicons';
+  font-size: 1.5em;
+  vertical-align: middle;
+  content: '\f127';
+  cursor: pointer;
+}
+.add-item.item-gallery:before{
+  font-family: 'dashicons';
+  font-size: 1.5em;
+  vertical-align: middle;
+  content: '\f161';
+  cursor: pointer;
+}
+.add-item.item-tweet:before{
+  font-family: 'dashicons';
+  font-size: 1.5em;
+  vertical-align: middle;
+  content: '\f301';
+  cursor: pointer;
+}
+.add-item.item-html:before{
+  font-family: 'dashicons';
+  font-size: 1.5em;
+  vertical-align: middle;
+  content: '\f341 \f345';
+  cursor: pointer;
+}
+.audio-preview:before{
+  font-family: 'dashicons';
+  font-size: 1.5em;
+  vertical-align: middle;
+  content: '\f127';
+  cursor: pointer;
+}
+.video-preview:before{
+  font-family: 'dashicons';
+  font-size: 1.5em;
+  vertical-align: middle;
+  content: '\f235';
+  cursor: pointer;
+}
