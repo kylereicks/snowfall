@@ -1,5 +1,6 @@
 ;(function(window, document, $, Backbone, _, undefined){
-  'use strict';var Item = Backbone.Model.extend({
+  'use strict';
+var Item = Backbone.Model.extend({
   defaults: {
     itemId: '',
     type: 'aside',

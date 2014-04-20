@@ -50,7 +50,7 @@ module.exports = function(grunt){
         ],
         dest: 'js/snowfall-editor.js',
         options: {
-          banner: ";(function(window, document, $, Backbone, _, undefined){\n  'use strict';",
+          banner: ";(function(window, document, $, Backbone, _, undefined){\n  'use strict';\n",
           footer: "\n}(this, document, jQuery, Backbone, _));"
         }
       }
