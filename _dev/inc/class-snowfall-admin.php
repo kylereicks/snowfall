@@ -12,8 +12,8 @@ if(!class_exists('Snowfall_Admin')){
     }
 
     public static function register_scripts(){
-      wp_register_script('google-maps-api', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDXY8vH-GMJZCciFB6dOweDmKH-RwX7iCM&sensor=false', array(), THEME_VERSION, true);
-      wp_register_script('tinymce', includes_url() .  'js/tinymce/tinymce.js', array(), false, true);
+      wp_register_script('google-maps-api', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDXY8vH-GMJZCciFB6dOweDmKH-RwX7iCM&sensor=false', array(), SNOWFALL_VERSION, true);
+      wp_register_script('tinymce', includes_url() .  'js/tinymce/tinymce.min.js', array(), false, true);
       wp_register_script('tinymce-plugins', includes_url() .  'js/tinymce/plugins/compat3x/plugin.min.js', array('tinymce'), false, true);
       wp_register_script('snowfall-editor', SNOWFALL_URL .  'js/snowfall-editor.min.js', array('jquery', 'backbone', 'underscore', 'jquery-ui-sortable', 'google-maps-api', 'wp-color-picker', 'word-count', 'editor', 'quicktags', 'wplink', 'wp-fullscreen', 'media-upload', 'tinymce', 'tinymce-plugins'), SNOWFALL_VERSION, true);
       wp_localize_script('snowfall-editor', 'snowfallTinyMCESettings', apply_filters('snowfall_tinyMCE_settings', self::editor_settings()));

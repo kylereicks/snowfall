@@ -1,6 +1,7 @@
 var ItemView = Backbone.View.extend({
   tagName: 'li',
   template: null,
+  className: 'postbox',
 
   events: {
     'click span.delete': 'remove',

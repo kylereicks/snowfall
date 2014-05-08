@@ -1,31 +1,21 @@
-/* line 2, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_utilities.scss */
+/* line 2, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_utilities.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-/* line 6, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_utilities.scss */
+/* line 6, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_utilities.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 1, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_hide.scss */
+/* line 1, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_hide.scss */
 #content {
   display: none;
 }
 
-/* line 1, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
-#snowfall-editor .sort-handle:before {
-  font-family: 'dashicons';
-  font-size: 2em;
-  line-height: 1em;
-  float: right;
-  content: '\f333';
-  cursor: move;
-}
-
-/* line 9, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
+/* line 1, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
 #snowfall-editor .delete:before {
   font-family: 'dashicons';
   font-size: 1.5em;
@@ -34,7 +24,7 @@
   cursor: pointer;
 }
 
-/* line 16, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
+/* line 8, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
 .plus-icon:before {
   font-family: 'dashicons';
   font-size: 1.5em;
@@ -42,7 +32,7 @@
   content: '\f132';
 }
 
-/* line 22, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
+/* line 14, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
 .add-item.item-array:before {
   font-family: 'dashicons';
   font-size: 1.5em;
@@ -51,7 +41,7 @@
   cursor: pointer;
 }
 
-/* line 29, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
+/* line 21, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
 .add-item.item-object:before {
   font-family: 'dashicons';
   font-size: 1.5em;
@@ -60,7 +50,7 @@
   cursor: pointer;
 }
 
-/* line 36, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
+/* line 28, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
 .add-item.item-image:before {
   font-family: 'dashicons';
   font-size: 1.5em;
@@ -69,7 +59,7 @@
   cursor: pointer;
 }
 
-/* line 43, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
+/* line 35, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
 .add-item.item-string:before {
   font-family: 'dashicons';
   font-size: 1.5em;
@@ -78,7 +68,7 @@
   cursor: pointer;
 }
 
-/* line 50, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
+/* line 42, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
 .add-item.item-color:before {
   font-family: 'dashicons';
   font-size: 1.5em;
@@ -87,7 +77,7 @@
   cursor: pointer;
 }
 
-/* line 57, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
+/* line 49, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
 .add-item.item-map:before {
   font-family: 'dashicons';
   font-size: 1.5em;
@@ -96,7 +86,7 @@
   cursor: pointer;
 }
 
-/* line 64, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
+/* line 56, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
 .add-item.item-tinymce:before {
   font-family: 'dashicons';
   font-size: 1.5em;
@@ -105,7 +95,7 @@
   cursor: pointer;
 }
 
-/* line 71, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
+/* line 63, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
 .add-item.item-section:before {
   font-family: 'dashicons';
   font-size: 1.5em;
@@ -114,7 +104,7 @@
   cursor: pointer;
 }
 
-/* line 78, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
+/* line 70, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
 .add-item.item-aside:before {
   font-family: 'dashicons';
   font-size: 1.5em;
@@ -123,7 +113,7 @@
   cursor: pointer;
 }
 
-/* line 85, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
+/* line 77, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
 .add-item.item-video:before {
   font-family: 'dashicons';
   font-size: 1.5em;
@@ -132,7 +122,7 @@
   cursor: pointer;
 }
 
-/* line 92, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
+/* line 84, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
 .add-item.item-audio:before {
   font-family: 'dashicons';
   font-size: 1.5em;
@@ -141,7 +131,7 @@
   cursor: pointer;
 }
 
-/* line 99, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
+/* line 91, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
 .add-item.item-gallery:before {
   font-family: 'dashicons';
   font-size: 1.5em;
@@ -150,7 +140,7 @@
   cursor: pointer;
 }
 
-/* line 106, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
+/* line 98, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
 .add-item.item-tweet:before {
   font-family: 'dashicons';
   font-size: 1.5em;
@@ -159,7 +149,7 @@
   cursor: pointer;
 }
 
-/* line 113, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
+/* line 105, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
 .add-item.item-html:before {
   font-family: 'dashicons';
   font-size: 1.5em;
@@ -168,7 +158,7 @@
   cursor: pointer;
 }
 
-/* line 120, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
+/* line 112, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
 .audio-preview:before {
   font-family: 'dashicons';
   font-size: 1.5em;
@@ -177,7 +167,7 @@
   cursor: pointer;
 }
 
-/* line 127, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
+/* line 119, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_icons.scss */
 .video-preview:before {
   font-family: 'dashicons';
   font-size: 1.5em;
@@ -186,58 +176,58 @@
   cursor: pointer;
 }
 
-/* line 3, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
+/* line 3, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
 #snowfall-editor ul ul {
   margin-left: 2em;
 }
-/* line 6, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
+/* line 6, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
 #snowfall-editor ul .add-item:first-of-type {
   margin-left: 2em;
 }
-/* line 10, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
+/* line 10, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
 #snowfall-editor li {
   border: 1px dotted #ccc;
 }
-/* line 13, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
+/* line 13, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
 #snowfall-editor .gallery-container {
   margin: 0;
 }
-/* line 15, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
+/* line 15, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
 #snowfall-editor .gallery-container li {
   display: inline-block;
   position: relative;
   border: none;
 }
-/* line 19, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
+/* line 19, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
 #snowfall-editor .gallery-container li .sort-handle {
   position: absolute;
   right: 37px;
   top: 37px;
 }
-/* line 24, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
+/* line 24, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
 #snowfall-editor .gallery-container li .delete {
   position: absolute;
   right: 0px;
 }
-/* line 28, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
+/* line 28, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
 #snowfall-editor .gallery-container li:hover .image-preview {
   opacity: 0.3;
 }
-/* line 33, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
+/* line 33, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
 #snowfall-editor .select-gallery {
   width: 100px;
   height: 100px;
 }
-/* line 37, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
+/* line 37, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
 #snowfall-editor .delete {
   cursor: pointer;
   line-height: 2em;
 }
-/* line 41, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
+/* line 41, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
 #snowfall-editor .sort-handle {
   cursor: move;
 }
-/* line 44, /var/www/Wordpress-Development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
+/* line 44, /var/www/wordpress-development/wp-content/plugins/snowfall/_dev/css/sass/_editor.scss */
 #snowfall-editor .image-preview {
   vertical-align: middle;
 }

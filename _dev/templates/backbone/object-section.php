@@ -1,4 +1,5 @@
-<span class="sort-handle"><span class="screen-reader-text">Drag to sort</span></span>Section Title: <input class="key section-title" type="text" value="<%= key %>" />
+<h3 class="sort-handle">Section</h3>
+<input class="key section-title" type="text" value="<%= key %>" />
 <div id="wp-<%= itemId %>-tinymce-wrap" class="wp-core-ui wp-editor-wrap tmce-active">
   <div id="wp-<%= itemId %>-tinymce-editor-tools" class="wp-editor-tools hide-if-no-js">
     <div id"wp-<%= itemId %>-tinymce-media-buttons" class="wp-media-buttons">
